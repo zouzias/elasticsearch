@@ -16,8 +16,8 @@ RUN \
   tar xvzf $ES_PKG_NAME.tar.gz && \
   rm -f $ES_PKG_NAME.tar.gz && \
   mv /$ES_PKG_NAME /elasticsearch && \
-  /elasticsearch/bin/bin/plugin --install mobz/elasticsearch-head && \
-  /elasticsearch/bin/bin/plugin --install royrusso/elasticsearch-HQ
+  /elasticsearch/bin/plugin --install mobz/elasticsearch-head && \
+  /elasticsearch/bin/plugin --install royrusso/elasticsearch-HQ
 
 
 # Define mountable directories.
